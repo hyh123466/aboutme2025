@@ -12,11 +12,13 @@
 		<script>
 		function change1() {
   			document.getElementById("pic").src = "mountain.jpg";
+  			document.getElementById("h1text").innerText = "資管導論";
   			document.getElementById("h2text").innerText = "靜宜資管";
 		}
 
 		function change2() {
   			document.getElementById("pic").src = "cliff.jpg";
+  			document.getElementById("h1text").innerText = "黃鎰弘";
   			document.getElementById("h2text").innerText = "Yi-Hung Huang";
 		}
 	</script>
@@ -28,7 +30,7 @@
 				<img src="cliff.jpg" width="110%" id="pic" onmouseover="change1()" onmouseout="change2()"></img>
 			</td>
 			<td>
-				<h1>黃鎰弘</h1>
+				<h1 id="h1text">黃鎰弘</h1>
 				<h2 id="h2text">Yi-Hung Huang</h2>
 			</td>
 		</tr>
